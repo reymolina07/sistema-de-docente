@@ -1,0 +1,18 @@
+
+archivo que se deben de modificar para la conexion 
+
+bdconfig.php
+duplicados..php
+conectar.php
+conexion.php
+respaldar.php
+
+donde se deven de modificar los paremetros de server, user, pass  y bd_name
+                                                                                  localhost,root,""
+
+if (!($enlace = mysql_connect("localhost","root",""))) 
+
+para iniciar seccion en el sistema el nombre de  usuario y contraseña de administrador es:
+
+usuario :    admin
+pasworrd : admin

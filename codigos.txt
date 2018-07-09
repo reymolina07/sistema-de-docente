@@ -1,0 +1,54 @@
+ <script language="JavaScript">
+  function cerrar()
+         {
+          window.close(); 
+	 }
+  function errorusu()
+        {
+          alert("¡Error de usuario o clave!");
+        }
+  </script>
+
+
+<script language="JavaScript">
+function cerrar()
+{
+var res=confirm("¿Desea cerrar la sesión?");
+if res=true {
+<?php header("Location: cerrarsesion.php");?>
+close();
+
+}
+else
+{
+}
+</script>
+
+
+
+<script language="JavaScript">
+//   function cerrar() {
+//          alert("¡Error de usuario o clave!");
+//   var res=confirm("¿Desea cerrar la sesión?");
+//if res=true {
+//<?php header("Location: cerrarsesion.php");?>
+//close();
+
+//}
+//else
+//{
+//}
+ </script>
+
+
+
+
+
+
+<script language="JavaScript">
+  function cerrar()  {
+       if(confirm("¿Desea cerrar la sesión?")){
+          window.open("cerrarsesion.php");
+          window.close("menu.php");}
+   }
+</script>
